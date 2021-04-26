@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		3CF405EC945C4A7D7D35CE3D /* Pods_ImagyLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImagyLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC49017E29D7F6B957B6C11 /* Pods-ImagyLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagyLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ImagyLib_Tests/Pods-ImagyLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4E8DF2461149A77F0B327422 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		51962BA0EDA414F46C96C9E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4E8DF2461149A77F0B327422 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		51962BA0EDA414F46C96C9E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ImagyLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagyLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		9B2BCE13D3DDDAC875A52870 /* Pods-ImagyLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagyLib_Example.release.xcconfig"; path = "Target Support Files/Pods-ImagyLib_Example/Pods-ImagyLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A1D059BEBE7EFB81FC816284 /* Pods-ImagyLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagyLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-ImagyLib_Example/Pods-ImagyLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F4FD6E4B8E817B607B002A57 /* Pods_ImagyLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImagyLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F646024DAAA7E134B91E80AC /* ImagyLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ImagyLib.podspec; path = ../ImagyLib.podspec; sourceTree = "<group>"; };
+		F646024DAAA7E134B91E80AC /* ImagyLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ImagyLib.podspec; path = ../ImagyLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FCDCA7872AAF526AF8BEF9F4 /* Pods-ImagyLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagyLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-ImagyLib_Tests/Pods-ImagyLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				4CC49017E29D7F6B957B6C11 /* Pods-ImagyLib_Tests.debug.xcconfig */,
 				FCDCA7872AAF526AF8BEF9F4 /* Pods-ImagyLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

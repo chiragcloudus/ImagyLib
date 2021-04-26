@@ -1,0 +1,16 @@
+PODS:
+  - ImagyLib (0.1.0)
+
+DEPENDENCIES:
+  - ImagyLib (from `../`)
+
+EXTERNAL SOURCES:
+  ImagyLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ImagyLib: 983af2c8c0f201860f0b67975006f4d8c08fa6a2
+
+PODFILE CHECKSUM: 0d78e37dbfac5914a300dfe87b05f1fcf66099c8
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module ImagyLib {
+  umbrella header "ImagyLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

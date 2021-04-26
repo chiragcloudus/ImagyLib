@@ -1,0 +1,6 @@
+framework module Pods_ImagyLib_Example {
+  umbrella header "Pods-ImagyLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
