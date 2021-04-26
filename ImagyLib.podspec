@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'TODO: Add long description of the pod here.'
                        DESC
 
   s.homepage         = 'https://github.com/Chirag Patel/ImagyLib'
@@ -30,7 +30,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ImagyLib/Classes/**/*'
+  
+  s.ios.deployment_target = '13.0'
+  
+  s.source_files = 'Classes/**/*.swift'
+  
+  s.swift_version = '5.0'
+  
+  s.platforms = {
+      "ios" : "13.0"
+  }
   
   # s.resource_bundles = {
   #   'ImagyLib' => ['ImagyLib/Assets/*.png']
