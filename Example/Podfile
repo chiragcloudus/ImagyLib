@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ImagyLib_Example' do
+  pod 'ImagyLib', :path => '../'
+
+  target 'ImagyLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
